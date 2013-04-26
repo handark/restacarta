@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RestaCarta</title>
+    <title>RestaCarta - Carta Interactiva para Restaurantes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Page description">
     <meta name="author" content="Jose Luis Orozco Mejia" >
