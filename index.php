@@ -1,4 +1,30 @@
-<% layout('layout') -%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RestaCarta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page description">
+    <meta name="author" content="Jose Luis Orozco Mejia" >
+    <meta charset="utf-8">
+    <link href="recursos/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="recursos/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="recursos/css/font-awesome.css" rel="stylesheet">
+    <link href="recursos/css/animate.css" rel="stylesheet">
+    <link href="recursos/css/style.min.css" rel="stylesheet" media="screen">
+
+    <!--[if IE 7]>
+        <link href="/css/font-awesome-ie7.css" rel="stylesheet">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="recursos/js/jquery.min.js"></script>
+
+</head>
+<body>
+
 
 <header id="header">
     <div id="headerbg"></div>
@@ -54,7 +80,7 @@
                                         </div>
                                     </div>
                                     <div class="span6">
-                                        <img class="animated fadeInRightBig" src="img/slide01.png" alt=""/>
+                                        <img class="animated fadeInRightBig" src="recursos/img/slide01.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +89,7 @@
                             <div class="container">
                                 <div class="row-fluid">
                                     <div class="span6">
-                                        <img class="animated bounceInDown" src="img/movil.png" alt=""/>
+                                        <img class="animated bounceInDown" src="recursos/img/movil.png" alt=""/>
                                     </div>
                                     <div class="span6">
                                         <div class="content-right animated bounceInRight">
@@ -258,17 +284,17 @@
         </div>
 </footer>
 
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="recursos/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="/js/googlemaps.js"></script>
-<script type="text/javascript" src="/js/onepage.js"></script>
-<script type="text/javascript" src="/js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="recursos/js/googlemaps.js"></script>
+<script type="text/javascript" src="recursos/js/onepage.js"></script>
+<script type="text/javascript" src="recursos/js/jquery.hoverdir.js"></script>
 
 <script type="text/javascript">
 
     $(function() {
         $('.gallery > div').hoverdir( {
-            hoverDelay	: 75
+            hoverDelay  : 75
         } );
     });
 
@@ -286,3 +312,6 @@
     var myonepage = new onepage(options);
 
 </script>
+
+</body>
+</html>
