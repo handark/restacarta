@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>RestaCarta - Carta Interactiva para Restaurantes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Page description">
-    <meta name="author" content="Jose Luis Orozco Mejia" >
-    <meta charset="utf-8">
-    <link href="recursos/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="recursos/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="recursos/css/font-awesome.css" rel="stylesheet">
-    <link href="recursos/css/animate.css" rel="stylesheet">
-    <link href="recursos/css/style.min.css" rel="stylesheet" media="screen">
-
-    <!--[if IE 7]>
-        <link href="/css/font-awesome-ie7.css" rel="stylesheet">
-    <![endif]-->
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script src="recursos/js/jquery.min.js"></script>
-
-</head>
-<body>
-
+<?php include 'header.php';?>
 
 <header id="header">
     <div id="headerbg"></div>
@@ -274,44 +248,4 @@
     </div>
 </section>
 
-<footer id="footer">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span12">
-                <p>copyright &copy; 2013 restaCarta - todos los derechos reservados</p>
-                </span>
-            </div>
-        </div>
-</footer>
-
-<script type="text/javascript" src="recursos/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="recursos/js/googlemaps.js"></script>
-<script type="text/javascript" src="recursos/js/onepage.js"></script>
-<script type="text/javascript" src="recursos/js/jquery.hoverdir.js"></script>
-
-<script type="text/javascript">
-
-    $(function() {
-        $('.gallery > div').hoverdir( {
-            hoverDelay  : 75
-        } );
-    });
-
-    var options = {
-        'offsetHeader' : $('#header').height(),
-        'targetMenus' : [{'get' : '#nav a', 'target' : 'href'}],
-        'targetPages' : [{'get' : 'section[data-type="page"]', 'target' : 'data-name'}],
-        'detectByHash' : true,
-        'detectByScroll' : true,
-        'detectByResize' : true,
-        'beforeScroll' : function( menu, page, $this ) {},
-        'afterScroll' : function( menu, page, $this ) {}
-    }
-
-    var myonepage = new onepage(options);
-
-</script>
-
-</body>
-</html>
+<?php include 'footer.php';?>
