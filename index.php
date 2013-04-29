@@ -22,17 +22,33 @@ $app = new \Slim\Slim(array(
 $app->setName('RestaCarta - Carta Virtual para Restaurantes');
 
 
+/*-----RUTAS DE LA PAGINA WEB -------*/
+/*-----------------------------------*/
 // GET ruta inicial del sitio
 $app->get('/', function () use ($app) {
-    index($app);
+    cargar($app,'index');
 });
-
+//GET Ruta para el registro
+$app->get('/registro', function () use ($app){
+	cargar($app,'registro');
+});
+$app->get('/que-es', function () use ($app){
+	cargar($app,'que-es');
+});
+$app->get('/contacto', function () use ($app){
+	cargar($app,'contacto');
+});
+$app->get('/demo', function () use ($app){
+	cargar($app,'demo');
+});
 //GET Ruta para las empresas
-$app->get('/:empresa', function ($empresa) use ($app){
+$app->get('/carta/:empresa', function ($empresa) use ($app){
 	empresa($app,$empresa);
 });
 
 
+
+/*-----RUTAS DEl PANEL DE EMPRESAS -------*/
 
 /**
  * Ejecuta la aplicacion

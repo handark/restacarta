@@ -1,15 +1,5 @@
 <?php include 'header.php';?>
 
-<div data-role="page" class="jqm-demos jqm-demos-home">
-
-<div data-role="header" class="jqm-header">
-    <h1 class="jqm-logo"><img src="recursos/img/logo.png" alt="RestaCarta"></h1>
-    <a href="#" class="jqm-search-link ui-btn-right" data-icon="grid" data-iconpos="notext">Buscar</a>
-    <div class="jqm-search">
-        <a href="#" data-role="button" data-inline="true" data-theme="d" data-icon="grid" > Ingresar al Sistema </a>
-    </div>
-</div><!-- /Cabecera -->
-
 <div data-role="content" class="jqm-content">
 
     <div class="jqm-home-welcome">
@@ -28,9 +18,9 @@
     </div>
 
     <ul data-role="listview" data-inset="true" data-theme="d" data-icon="false" data-filter-placeholder="Buscar..." class="jqm-list jqm-home-list">
-        <li><a href="#"><h2>Registrarme</h2><p>Eres Nuevo? Registrate aqui.</p></a></li>
-        <li><a href="#"><h2>Ver un Demo</h2><p>Explora y aprende como funciona RestaCarta.</p></a></li>
-        <li><a href="#"><h2>Preguntas y Respuestas</h2><p>Common issues and questions, explained.</p></a></li>
+        <li><a href="#principal"><h2>Registrarme</h2><p>Eres Nuevo? Registrate aqui.</p></a></li>
+        <li><a href="#api-popup" data-rel="popup" data-transition="slideup" data-position-to="window" ><h2>Ver un Demo</h2><p>Explora y aprende como funciona RestaCarta.</p></a></li>
+        <li><a href="#registro"><h2>Preguntas y Respuestas</h2><p>Common issues and questions, explained.</p></a></li>
         <li><a href="#"><h2>Contactenos</h2><p>Pongase en contacto con nosotros.</p></a></li>
     </ul>
 
@@ -49,8 +39,5 @@
     </ul>
 
 </div><!-- /content -->
-
-
-
 
 <?php include 'footer.php';?>

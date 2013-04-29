@@ -1,5 +1,5 @@
 <?php 
-	function index($app) {
-	    $app->render('pagina/index.php',array('app'=>$app));
+	function  cargar($app,$pagina) {
+	    $app->render('pagina/'.$pagina.'.php',array('app'=>$app));
 	}
  ?>
