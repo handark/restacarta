@@ -42,6 +42,9 @@ $app->get('/demo', function () use ($app){
 	cargar($app,'demo');
 });
 //GET Ruta para las empresas
+$app->get('/admin/login', function () use ($app){
+	cargarAdmin($app,'admin/login');
+});
 $app->get('/carta/:empresa', function ($empresa) use ($app){
 	empresa($app,$empresa);
 });

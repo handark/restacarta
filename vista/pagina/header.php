@@ -22,6 +22,6 @@
     <h1 class="jqm-logo"><img src="recursos/img/logo.png" alt="RestaCarta"></h1>
     <a href="#" class="jqm-search-link ui-btn-right" data-icon="grid" data-iconpos="notext">Ingresar</a>
     <div class="jqm-search">
-        <a href="#" data-role="button" data-inline="true" data-theme="d" data-icon="grid" > Ingresar al Sistema </a>
+        <a href="admin/login" data-role="button" data-inline="true" data-theme="d" data-icon="grid" > Ingresar al Sistema </a>
     </div>
 </div><!-- /Cabecera -->
